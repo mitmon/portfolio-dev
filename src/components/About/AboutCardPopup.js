@@ -67,7 +67,7 @@ function AboutCardPopup(props) {
                             component='img'
                             image={cardImgURL}
                             alt={cardAltText}
-                            sx={{maxHeight:'250px'}}
+                            sx={{width:'100%', maxHeight:'100%'}}
                         >
                 </CardMedia>
             </Button>

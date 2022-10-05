@@ -112,8 +112,7 @@ function ExperienceDetail() {
                     >
                     <Grid item xs={12}>
                         <Box sx={{
-                                    bgcolor: 'transparent',
-                                    px:12
+                                    bgcolor: 'transparent'
                                     }} 
                                     gutterBottom
                                 >

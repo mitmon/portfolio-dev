@@ -6,7 +6,6 @@ import { AboutCardPopup } from "./AboutCardPopup";
 
 // Images
 import profileImg from '../img/profile-pic-1.png'
-import Button from "@restart/ui/esm/Button";
 
 
 function AboutCardTemplate(props){
@@ -28,10 +27,10 @@ function AboutCardTemplate(props){
                         sx={{
                             bgcolor: 'transparent',
                             backdropFilter: "blur(5px)",
+                            px:2,
+                            py:2,
                             mx:2,
-                            mb:4,
-                            py:4,
-                            px:4,
+                            my:2
                         }} elevation={3}>
                         <AboutCardPopup
                             key={cardArray[index].id}

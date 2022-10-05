@@ -77,7 +77,7 @@ function Contact(props) {
                         </Typography>
                     </Box>
                     :
-                    <Box component="form" noValidate color={textPrimary} onSubmit={handleSubmit} sx={{ mt: 3}}>
+                    <Box component="form" noValidate color={textPrimary} onSubmit={handleSubmit}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={6}>
                                 <CssTextField

@@ -19,15 +19,15 @@ function ExperienceCardTemplate(props) {
         for (let index = 0; index < numCards && index < cardArray.length; index++) {
 
             array.push(
-                <Grid item xs={12} md={6}> 
+                <Grid item xs={12} md={6} spacing={2}> 
                     <Card 
                         sx={{
                             bgcolor: 'transparent',
                             backdropFilter: "blur(5px)",
+                            px:2,
+                            py:2,
                             mx:2,
-                            mb:4,
-                            pb:4,
-                            px:4,
+                            my:2
                         }} elevation={3}>
                         <ExperienceCardPopupTemplate
                             key={cardArray[index].id}

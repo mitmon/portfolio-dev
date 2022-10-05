@@ -61,7 +61,7 @@ function ProjectCardPopupTemplate(props) {
             align="center"
             justifyContent="start"
         >
-        <Button onClick={handleClickOpen} sx={{color:'white'}}>
+        <Button onClick={handleClickOpen} sx={{color:'white', padding:'0'}}>
             <Grid container>
                 <Grid item xs={12}>
                         <CardMedia

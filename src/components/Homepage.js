@@ -10,14 +10,13 @@ import profileImg from './img/profile-pic-1.png'
   
 function Homepage(props) {
 
-    const { textPrimary, buttonColor, textAccentLight, textAccentMedium, textAccentDark } = props
+    const { textPrimary, buttonColor, textAccentLight, textAccentMedium, textAccentDark, mediaTitleLg, mediaTitleMd, mediaTitleSm } = props
 
     return(
                 <Box
                     color={textPrimary}
                     sx={{   flexGrow: 1,
                             pt:'10vh',
-                            px:12,
                             height:'100vh'
                     }}
                 >
@@ -28,20 +27,21 @@ function Homepage(props) {
                                 transitionDuration='1000'
                             >
                                 <Typography
-                                        variant="h6"
+                                        variant={mediaTitleSm}
                                         gutterBottom
                                     >
                                         Welcome! My name is...
                                 </Typography>
                                 <Typography
-                                        component="h1"
-                                        variant="h1"
+                                        nowrap
+                                        variant={mediaTitleLg}
                                     >
                                         Mitch Krafczek.
                                 </Typography>
                                 <Typography
-                                        variant="h3"
+                                        variant={mediaTitleMd}
                                         color={textAccentMedium}
+                                        nowrap
                                         gutterBottom
                                     >
                                         I build things for the web.

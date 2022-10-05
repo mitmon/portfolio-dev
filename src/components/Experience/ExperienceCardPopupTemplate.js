@@ -67,11 +67,11 @@ function ExperienceCardPopupTemplate(props) {
             align="center"
             justifyContent="start"
         >
-            <Button onClick={handleClickOpen} sx={{color:'white'}}>
+        <Button onClick={handleClickOpen} sx={{color:'white', padding:'0'}}>
                 <Grid container>
-                    <Grid item xs={12} align='start' textTransform='none'>
+                    <Grid item align='start' textTransform='none'>
                         <CardContent>
-                            <Typography variant='h3' gutterBottom>
+                            <Typography variant='h4' gutterBottom>
                                 {cardTitle}
                             </Typography>
                             <Typography variant='h5' gutterBottom>

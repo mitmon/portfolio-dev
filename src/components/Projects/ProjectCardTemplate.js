@@ -25,10 +25,10 @@ function ProjectCardTemplate(props) {
                     <Card sx={{
                         bgcolor: 'transparent',
                         backdropFilter: "blur(5px)",
-                        pb:4,
-                        px:4,
+                        px:2,
+                        py:2,
                         mx:2,
-                        mb:4
+                        my:2
                         }} elevation={3}>
                     <ProjectCardPopupTemplate
                         key={cardArray[index].id}

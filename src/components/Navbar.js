@@ -149,17 +149,6 @@ function Navbar(props) {
                   )
                 }
                 )}
-            {/* {pages.map((page) => (
-                <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, mr: 1, color: 'white', display: 'block' }}
-                >
-                  <a onClick={() => scrollDown(refSection)}>
-                    {page}
-                  </a>
-              </Button>
-            ))} */}
           </Box>
           <Link
               to='./docs/Mitch_Krafczek_Resume.pdf'
