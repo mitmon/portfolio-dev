@@ -385,25 +385,25 @@ export default function App() {
                 buttonColor={styles.backgroundAccent}
               />
             </Grid>
-            <Grid item xs={12}>
-              <Grid container sx={{justifyContent:'space-evenly'}}>
+            <Grid item xs={12} sx={{mt:10}}>
+              <Grid container sx={{justifyContent:'space-evenly', my:3}}>
                 <Grid item>
                   <a href="#" target="_blank">
-                    <img src={require("./components/img/company-logos/twitter-logo/Twitter logo/PNG/2021 Twitter logo - white.png")} alt="Twitter logo" style={{maxHeight:'64px'}}/>
+                    <img src={require("./components/img/company-logos/twitter-logo/Twitter logo/PNG/2021 Twitter logo - white.png")} alt="Twitter logo" style={{maxHeight:'32px'}}/>
                   </a>
                 </Grid>
                 <Grid item>
                   <a href="https://www.linkedin.com/in/mitch-krafczek-701088a7/" target="_blank">
-                      <img src={require("./components/img/company-logos/LinkedIn-Logos/LI-In-Bug.png")} alt="Linkedin logo" style={{maxHeight:'64px'}}/>
+                      <img src={require("./components/img/company-logos/LinkedIn-Logos/LI-In-Bug.png")} alt="Linkedin logo" style={{maxHeight:'32px'}}/>
                   </a>
                 </Grid>
                 <Grid item>
                   <a href="#" target="_blank">
-                      <img src={require("./components/img/company-logos/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png")} alt="Github logo" style={{maxHeight:'64px'}}/>
+                      <img src={require("./components/img/company-logos/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png")} alt="Github logo" style={{maxHeight:'32px'}}/>
                   </a>
                 </Grid>
               </Grid>
-              <Grid container sx={{justifyContent:'space-evenly'}}>
+              <Grid container sx={{justifyContent:'space-evenly', mb:3}}>
                 <Grid item> 
                   <Box sx={{ bgcolor: 'background.paper', bottom: 0}} component="footer">
                       <Typography
